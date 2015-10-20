@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/cert/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/18.0/cce0823396aa693798f8882e64213b1772032b09/guava-18.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="cce0823396aa693798f8882e64213b1772032b09">
+        <dex dex="/home/cert/droid-py/apk-2.7/app/build/intermediates/pre-dexed/debug/guava-18.0-b8666c1388bee9c7466fac5f7f9157843a78180f.jar" />
+    </item>
+    <item
+        jar="/home/cert/droid-py/apk-2.7/app/libs/libGoogleAnalytics.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="b635fdd351d7031266c1e855903cd737763df97c">
+        <dex dex="/home/cert/droid-py/apk-2.7/app/build/intermediates/pre-dexed/debug/libGoogleAnalytics-63267758ef8574d23256a89f56d24280cf306597.jar" />
+    </item>
+    <item
+        jar="/home/cert/droid-py/apk-2.7/app/libs/script.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="a7e8dd777a92c852917ecd55db4aeb7fe0256f17">
+        <dex dex="/home/cert/droid-py/apk-2.7/app/build/intermediates/pre-dexed/debug/script-4b80c149787f04973b408f90d1e5dae07512b403.jar" />
+    </item>
+    <item
+        jar="/home/cert/droid-py/apk-2.7/app/libs/locale_platform.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="0829dfa494c746b8ab018cdbbf4b6980b6707819">
+        <dex dex="/home/cert/droid-py/apk-2.7/app/build/intermediates/pre-dexed/debug/locale_platform-1e31f048459a78e5ae7b761eefb436a27b09874e.jar" />
+    </item>
+
+</items>

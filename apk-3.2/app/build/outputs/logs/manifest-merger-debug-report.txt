@@ -1,0 +1,130 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/cert/droid-py/apk-3.2/app/src/main/AndroidManifest.xml:3:1-310:12
+	package
+		ADDED from /home/cert/droid-py/apk-3.2/app/src/main/AndroidManifest.xml:3:12-42
+		INJECTED from /home/cert/droid-py/apk-3.2/app/src/main/AndroidManifest.xml
+		INJECTED from /home/cert/droid-py/apk-3.2/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /home/cert/droid-py/apk-3.2/app/src/main/AndroidManifest.xml:5:6-31
+	android:versionCode
+		ADDED from /home/cert/droid-py/apk-3.2/app/src/main/AndroidManifest.xml:4:6-29
+		INJECTED from /home/cert/droid-py/apk-3.2/app/src/main/AndroidManifest.xml
+		INJECTED from /home/cert/droid-py/apk-3.2/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/cert/droid-py/apk-3.2/app/src/main/AndroidManifest.xml:7:6-64
+	android:installLocation
+		ADDED from /home/cert/droid-py/apk-3.2/app/src/main/AndroidManifest.xml:6:6-44
+uses-sdk
+ADDED from /home/cert/droid-py/apk-3.2/app/src/main/AndroidManifest.xml:9:3-44
+	android:targetSdkVersion
+		INJECTED from /home/cert/droid-py/apk-3.2/app/src/main/AndroidManifest.xml
+		INJECTED from /home/cert/droid-py/apk-3.2/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /home/cert/droid-py/apk-3.2/app/src/main/AndroidManifest.xml:9:17-42
+		INJECTED from /home/cert/droid-py/apk-3.2/app/src/main/AndroidManifest.xml
+		INJECTED from /home/cert/droid-py/apk-3.2/app/src/main/AndroidManifest.xml
+application
+ADDED from /home/cert/droid-py/apk-3.2/app/src/main/AndroidManifest.xml:11:3-64:15
+	android:label
+		ADDED from /home/cert/droid-py/apk-3.2/app/src/main/AndroidManifest.xml:13:8-40
+	android:debuggable
+		ADDED from /home/cert/droid-py/apk-3.2/app/src/main/AndroidManifest.xml:11:17-42
+	android:icon
+		ADDED from /home/cert/droid-py/apk-3.2/app/src/main/AndroidManifest.xml:12:8-37
+	android:name
+		ADDED from /home/cert/droid-py/apk-3.2/app/src/main/AndroidManifest.xml:14:8-61
+activity#com.android.python32.ScriptActivity
+ADDED from /home/cert/droid-py/apk-3.2/app/src/main/AndroidManifest.xml:16:5-30:16
+	android:configChanges
+		ADDED from /home/cert/droid-py/apk-3.2/app/src/main/AndroidManifest.xml:17:10-60
+	android:theme
+		ADDED from /home/cert/droid-py/apk-3.2/app/src/main/AndroidManifest.xml:18:10-69
+	android:name
+		ADDED from /home/cert/droid-py/apk-3.2/app/src/main/AndroidManifest.xml:16:16-66
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /home/cert/droid-py/apk-3.2/app/src/main/AndroidManifest.xml:20:7-23:23
+action#android.intent.action.MAIN
+ADDED from /home/cert/droid-py/apk-3.2/app/src/main/AndroidManifest.xml:21:9-62
+	android:name
+		ADDED from /home/cert/droid-py/apk-3.2/app/src/main/AndroidManifest.xml:21:18-59
+category#android.intent.category.LAUNCHER
+ADDED from /home/cert/droid-py/apk-3.2/app/src/main/AndroidManifest.xml:22:9-69
+	android:name
+		ADDED from /home/cert/droid-py/apk-3.2/app/src/main/AndroidManifest.xml:22:19-66
+intent-filter#android.intent.category.DEFAULT+com.googlecode.android_scripting.action.ACTION_LAUNCH_FOR_RESULT
+ADDED from /home/cert/droid-py/apk-3.2/app/src/main/AndroidManifest.xml:25:8-28:23
+action#com.googlecode.android_scripting.action.ACTION_LAUNCH_FOR_RESULT
+ADDED from /home/cert/droid-py/apk-3.2/app/src/main/AndroidManifest.xml:26:9-100
+	android:name
+		ADDED from /home/cert/droid-py/apk-3.2/app/src/main/AndroidManifest.xml:26:18-97
+category#android.intent.category.DEFAULT
+ADDED from /home/cert/droid-py/apk-3.2/app/src/main/AndroidManifest.xml:27:9-68
+	android:name
+		ADDED from /home/cert/droid-py/apk-3.2/app/src/main/AndroidManifest.xml:27:19-65
+service#com.android.python32.ScriptService
+ADDED from /home/cert/droid-py/apk-3.2/app/src/main/AndroidManifest.xml:32:5-36:12
+	android:name
+		ADDED from /home/cert/droid-py/apk-3.2/app/src/main/AndroidManifest.xml:32:15-43
+intent-filter#com.android.python32.ScriptService
+ADDED from /home/cert/droid-py/apk-3.2/app/src/main/AndroidManifest.xml:33:6-35:19
+action#com.android.python32.ScriptService
+ADDED from /home/cert/droid-py/apk-3.2/app/src/main/AndroidManifest.xml:34:4-64
+	android:name
+		ADDED from /home/cert/droid-py/apk-3.2/app/src/main/AndroidManifest.xml:34:12-61
+service#com.android.python32.BackgroundScriptService
+ADDED from /home/cert/droid-py/apk-3.2/app/src/main/AndroidManifest.xml:38:5-42:12
+	android:name
+		ADDED from /home/cert/droid-py/apk-3.2/app/src/main/AndroidManifest.xml:38:15-53
+intent-filter#com.android.python32.BackgroundScriptService
+ADDED from /home/cert/droid-py/apk-3.2/app/src/main/AndroidManifest.xml:39:6-41:19
+action#com.android.python32.BackgroundScriptService
+ADDED from /home/cert/droid-py/apk-3.2/app/src/main/AndroidManifest.xml:40:4-74
+	android:name
+		ADDED from /home/cert/droid-py/apk-3.2/app/src/main/AndroidManifest.xml:40:12-71
+service#com.android.python32.RpcServerService
+ADDED from /home/cert/droid-py/apk-3.2/app/src/main/AndroidManifest.xml:44:2-66
+	android:name
+		ADDED from /home/cert/droid-py/apk-3.2/app/src/main/AndroidManifest.xml:44:11-63
+activity#com.googlecode.android_scripting.activity.FutureActivity
+ADDED from /home/cert/droid-py/apk-3.2/app/src/main/AndroidManifest.xml:46:5-48:60
+	android:configChanges
+		ADDED from /home/cert/droid-py/apk-3.2/app/src/main/AndroidManifest.xml:46:16-66
+	android:theme
+		ADDED from /home/cert/droid-py/apk-3.2/app/src/main/AndroidManifest.xml:48:10-58
+	android:name
+		ADDED from /home/cert/droid-py/apk-3.2/app/src/main/AndroidManifest.xml:47:10-81
+activity#com.android.python32.DialogActivity
+ADDED from /home/cert/droid-py/apk-3.2/app/src/main/AndroidManifest.xml:50:5-52:62
+	android:configChanges
+		ADDED from /home/cert/droid-py/apk-3.2/app/src/main/AndroidManifest.xml:51:10-60
+	android:theme
+		ADDED from /home/cert/droid-py/apk-3.2/app/src/main/AndroidManifest.xml:50:16-75
+	android:name
+		ADDED from /home/cert/droid-py/apk-3.2/app/src/main/AndroidManifest.xml:52:10-60
+activity#com.android.python32.RpcServerLauncher
+ADDED from /home/cert/droid-py/apk-3.2/app/src/main/AndroidManifest.xml:54:2-62:16
+	android:theme
+		ADDED from /home/cert/droid-py/apk-3.2/app/src/main/AndroidManifest.xml:57:8-67
+	android:taskAffinity
+		ADDED from /home/cert/droid-py/apk-3.2/app/src/main/AndroidManifest.xml:56:8-31
+	android:name
+		ADDED from /home/cert/droid-py/apk-3.2/app/src/main/AndroidManifest.xml:55:8-61
+intent-filter#android.intent.action.VIEW+android.intent.category.DEFAULT
+ADDED from /home/cert/droid-py/apk-3.2/app/src/main/AndroidManifest.xml:58:8-61:24
+action#android.intent.action.VIEW
+ADDED from /home/cert/droid-py/apk-3.2/app/src/main/AndroidManifest.xml:59:10-62
+	android:name
+		ADDED from /home/cert/droid-py/apk-3.2/app/src/main/AndroidManifest.xml:59:18-59
+supports-screens
+ADDED from /home/cert/droid-py/apk-3.2/app/src/main/AndroidManifest.xml:66:3-52
+	android:xlargeScreens
+		ADDED from /home/cert/droid-py/apk-3.2/app/src/main/AndroidManifest.xml:66:21-49
+uses-permission#android.permission.INTERNET
+ADDED from /home/cert/droid-py/apk-3.2/app/src/main/AndroidManifest.xml:68:3-65
+	android:name
+		ADDED from /home/cert/droid-py/apk-3.2/app/src/main/AndroidManifest.xml:68:20-62
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/cert/droid-py/apk-3.2/app/src/main/AndroidManifest.xml:69:3-78
+	android:name
+		ADDED from /home/cert/droid-py/apk-3.2/app/src/main/AndroidManifest.xml:69:20-76
