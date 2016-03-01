@@ -196,18 +196,18 @@ public class ScriptActivity extends Activity {
 
 					// python project
 					if(sFileName.endsWith(GlobalConstants.PYTHON_PROJECT_ZIP_NAME)) {
-						succeed &= Utils.unzip(content, this.getFilesDir().getAbsolutePath()+ "/", true);
+						succeed &= Utils.unzip(content, this.getFilesDir().getAbsolutePath()+ "/", true, true);
 					}
-					// python -> /data/data/com.android.python27/files/python
+					// python -> /data/data/com.rinderledoor.onpoint/files/python
 					else if (sFileName.endsWith(GlobalConstants.PYTHON_ZIP_NAME)) {
-						succeed &= Utils.unzip(content, this.getFilesDir().getAbsolutePath()+ "/", true);
+						succeed &= Utils.unzip(content, this.getFilesDir().getAbsolutePath()+ "/", true, true);
 						FileUtils.chmod(new File(this.getFilesDir().getAbsolutePath()+ "/python/bin/python" ), 0755);
 					}
-					// python extras -> /sdcard/com.android.python27/extras/python
+					// python extras -> /sdcard/com.rinderledoor.onpoint/extras/python
 					else if (sFileName.endsWith(GlobalConstants.PYTHON_EXTRAS_ZIP_NAME)) {
 						Utils.createDirectoryOnExternalStorage( this.getPackageName() + "/" + "extras");
-						Utils.createDirectoryOnExternalStorage( this.getPackageName() + "/" + "extras" + "/" + "tmp");
-						succeed &= Utils.unzip(content, Environment.getExternalStorageDirectory().getAbsolutePath() + "/" + this.getPackageName() + "/extras/", true);
+						Utils.createDirectoryOnExternalStorage(this.getPackageName() + "/" + "extras" + "/" + "tmp");
+						succeed &= Utils.unzip(content, Environment.getExternalStorageDirectory().getAbsolutePath() + "/" + this.getPackageName() + "/extras/", true, false);
 					}
 					
 				} catch (Exception e) {
