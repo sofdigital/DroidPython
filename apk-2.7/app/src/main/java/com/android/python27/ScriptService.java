@@ -180,11 +180,11 @@ public class ScriptService extends ForegroundService {
 		// env var
 		Map<String, String> environmentVariables = null;	
 		environmentVariables = new HashMap<String, String>();
-		environmentVariables.put("PYTHONPATH", Environment.getExternalStorageDirectory().getAbsolutePath()+ "/" + this.getPackageName() + "/extras/python" + ":" + this.getFilesDir().getAbsolutePath() + "/python/lib/python2.7/lib-dynload" + ":" + this.getFilesDir().getAbsolutePath() + "/python/lib/python2.7");		
-		environmentVariables.put("TEMP", Environment.getExternalStorageDirectory().getAbsolutePath() + "/" + this.getPackageName() + "/extras/tmp");		
-		environmentVariables.put("PYTHONHOME", this.getFilesDir().getAbsolutePath() + "/python");		
-		environmentVariables.put("LD_LIBRARY_PATH", this.getFilesDir().getAbsolutePath() + "/python/lib" + ":" + this.getFilesDir().getAbsolutePath() + "/python/lib/python2.7/lib-dynload");		
-		
+		environmentVariables.put("PYTHONPATH",this.getFilesDir().getAbsolutePath() + "/packages/python" + ":" + this.getFilesDir().getAbsolutePath() + "/python/lib/python2.7/lib-dynload" + ":" + this.getFilesDir().getAbsolutePath() + "/python/lib/python2.7");
+		environmentVariables.put("TEMP", this.getFilesDir().getAbsolutePath() + "/packages/tmp");
+		environmentVariables.put("PYTHONHOME", this.getFilesDir().getAbsolutePath() + "/python");
+		environmentVariables.put("LD_LIBRARY_PATH", this.getFilesDir().getAbsolutePath() + "/python/lib" + ":" + this.getFilesDir().getAbsolutePath() + "/python/lib/python2.7/lib-dynload");
+
 		// launch script
 		mProxy = new AndroidProxy(this, null, true);
 		mProxy.startLocal();
