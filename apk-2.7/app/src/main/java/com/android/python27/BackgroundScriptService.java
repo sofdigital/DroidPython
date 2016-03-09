@@ -168,7 +168,8 @@ public class BackgroundScriptService extends Service {
 
 		// env var
 		Map<String, String> environmentVariables = null;
-		environmentVariables.put("PYTHONPATH",this.getFilesDir().getAbsolutePath() + "/packages/python" + ":" + this.getFilesDir().getAbsolutePath() + "/python/lib/python2.7/lib-dynload" + ":" + this.getFilesDir().getAbsolutePath() + "/python/lib/python2.7");
+		environmentVariables = new HashMap<String, String>();
+		environmentVariables.put("PYTHONPATH", this.getFilesDir().getAbsolutePath() + "/packages/python" + ":" + this.getFilesDir().getAbsolutePath() + "/python/lib/python2.7/lib-dynload" + ":" + this.getFilesDir().getAbsolutePath() + "/python/lib/python2.7");
 		environmentVariables.put("TEMP", this.getFilesDir().getAbsolutePath() + "/packages/tmp");
 		environmentVariables.put("PYTHONHOME", this.getFilesDir().getAbsolutePath() + "/python");
 		environmentVariables.put("LD_LIBRARY_PATH", this.getFilesDir().getAbsolutePath() + "/python/lib" + ":" + this.getFilesDir().getAbsolutePath() + "/python/lib/python2.7/lib-dynload");
