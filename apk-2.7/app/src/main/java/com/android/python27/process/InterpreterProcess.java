@@ -130,7 +130,6 @@ public class InterpreterProcess extends Process {
   {
     String[] arrayOfString = new String[1];
     arrayOfString[0] = pyname;
-    Analytics.track(arrayOfString);
     if (!this.mCommand.equals(""))
       addArgument(this.mCommand);
     if (paramList != null)

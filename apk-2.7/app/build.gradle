@@ -20,7 +20,5 @@ android {
 
 dependencies {
     compile 'com.google.guava:guava:19.0'
-    compile files('libs/libGoogleAnalytics.jar')
-    compile files('libs/locale_platform.jar')
     compile files('libs/script.jar')
 }
