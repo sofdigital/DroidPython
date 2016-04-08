@@ -1,13 +1,13 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 15
-    buildToolsVersion "23.0.1"
+    compileSdkVersion 21
+    buildToolsVersion "21.0.1"
 
     defaultConfig {
         applicationId "com.android.python27"
-        minSdkVersion 4
-        targetSdkVersion 4
+        minSdkVersion 11
+        targetSdkVersion 21
     }
 
     buildTypes {
@@ -21,4 +21,5 @@ android {
 dependencies {
     compile 'com.google.guava:guava:19.0'
     compile files('libs/script.jar')
+    compile "com.android.support:appcompat-v7:21.0.+"
 }

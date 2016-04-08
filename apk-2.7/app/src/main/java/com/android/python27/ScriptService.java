@@ -225,7 +225,7 @@ public class ScriptService extends ForegroundService {
 	        new Notification(R.drawable.icon, this.getString(R.string.loading), System.currentTimeMillis());
 	    // This contentIntent is a noop.
 	    PendingIntent contentIntent = PendingIntent.getService(this, 0, new Intent(), 0);
-	    notification.setLatestEventInfo(this, this.getString(R.string.app_name), this.getString(R.string.loading), contentIntent);
+//	    notification.setLatestEventInfo(this, this.getString(R.string.app_name), this.getString(R.string.loading), contentIntent);
 	    notification.flags = Notification.FLAG_AUTO_CANCEL;
 		return notification;
 	}

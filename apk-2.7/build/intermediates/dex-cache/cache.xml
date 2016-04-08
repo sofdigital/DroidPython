@@ -2,32 +2,46 @@
 <items version="2" >
 
     <item
-        jar="/home/cert/Desktop/droid-python/apk-2.7/app/libs/locale_platform.jar"
+        jar="/opt/android-sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="0829dfa494c746b8ab018cdbbf4b6980b6707819">
-        <dex dex="/home/cert/Desktop/droid-python/apk-2.7/app/build/intermediates/pre-dexed/debug/locale_platform-950e4353abf9827b1e016eef1c6ca9f844b02cd3.jar" />
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="/home/cert/Desktop/github/droid-python/apk-2.7/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-1cd1039154f1bb9cc0d4a9da3e8b7ec509fd8b06.jar" />
     </item>
     <item
-        jar="/home/cert/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/18.0/cce0823396aa693798f8882e64213b1772032b09/guava-18.0.jar"
+        jar="/home/cert/Desktop/github/droid-python/apk-2.7/app/libs/script.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="cce0823396aa693798f8882e64213b1772032b09">
-        <dex dex="/home/cert/Desktop/droid-python/apk-2.7/app/build/intermediates/pre-dexed/debug/guava-18.0-b8666c1388bee9c7466fac5f7f9157843a78180f.jar" />
+        sha1="e2552b1730ed1062a7b387c1c7e1fbe6d90d01c9">
+        <dex dex="/home/cert/Desktop/github/droid-python/apk-2.7/app/build/intermediates/pre-dexed/debug/script-1cd946a22c42d2c8d36a13ffb0ad8df26e2b60e6.jar" />
     </item>
     <item
-        jar="/home/cert/Desktop/droid-python/apk-2.7/app/libs/libGoogleAnalytics.jar"
+        jar="/home/cert/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/19.0/6ce200f6b23222af3d8abb6b6459e6c44f4bb0e9/guava-19.0.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="b635fdd351d7031266c1e855903cd737763df97c">
-        <dex dex="/home/cert/Desktop/droid-python/apk-2.7/app/build/intermediates/pre-dexed/debug/libGoogleAnalytics-d0f3e0c5d5e8974fb3a421bab1978de1fb3a8bf2.jar" />
+        sha1="6ce200f6b23222af3d8abb6b6459e6c44f4bb0e9">
+        <dex dex="/home/cert/Desktop/github/droid-python/apk-2.7/app/build/intermediates/pre-dexed/debug/guava-19.0-b3284affe774c601b23762843fb7a15c52cc9271.jar" />
     </item>
     <item
-        jar="/home/cert/Desktop/droid-python/apk-2.7/app/libs/script.jar"
+        jar="/home/cert/Desktop/github/droid-python/apk-2.7/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/jars/libs/internal_impl-21.0.3.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="a7e8dd777a92c852917ecd55db4aeb7fe0256f17">
-        <dex dex="/home/cert/Desktop/droid-python/apk-2.7/app/build/intermediates/pre-dexed/debug/script-d59c88bcd96ae1b0bfb4958a853de6fcb107d14c.jar" />
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/home/cert/Desktop/github/droid-python/apk-2.7/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-f4f686e93f6b519771c914a8479d893422c990c3.jar" />
+    </item>
+    <item
+        jar="/home/cert/Desktop/github/droid-python/apk-2.7/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="/home/cert/Desktop/github/droid-python/apk-2.7/app/build/intermediates/pre-dexed/debug/classes-ff2012a16c28eace3b729f7c546b95c1909505a3.jar" />
+    </item>
+    <item
+        jar="/home/cert/Desktop/github/droid-python/apk-2.7/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/home/cert/Desktop/github/droid-python/apk-2.7/app/build/intermediates/pre-dexed/debug/classes-238421a16a7191eee99a247e7ecacb1f20d1512c.jar" />
     </item>
 
 </items>
