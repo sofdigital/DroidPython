@@ -26,7 +26,8 @@ Yes that is right, Python is back in business on Android!!!
 <a href="https://github.com/ainsophical/droid-python/wiki/How-to-add-your-Python-scripts"> How to add your Python scripts</a><br>
 <a href="https://github.com/ainsophical/droid-python/wiki/How-to-debug---run-Python-from-the-shell"> How to debug run Python from the shell</a><br>
 
-
-
+<h3>Common Questions</h3>
+<a href="https://github.com/ainsophical/DROID_PYTHON/issues/5">Adding PYPI Packages</a><br>
+<a href="https://github.com/ainsophical/DROID_PYTHON/issues/4">Passing Parameters to Script/Interpereter</a><br>
 
 
